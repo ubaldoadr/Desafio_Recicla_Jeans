@@ -54,6 +54,7 @@ public class ProductoServicio {
             } else if (op == 7) {
                 productos.setColor(reemplazo);
             }
+            listaProductos.remove(posicion);
             listaProductos.add(posicion, productos);
         } else {
             mensaje("No existen datos en esta ubicación.");
